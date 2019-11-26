@@ -1,3 +1,5 @@
 dnf install epel-release
-dnf install 
+
+dnf install centos-release-stream
+
 dnf install nano htop ncdu wget tar
