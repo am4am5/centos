@@ -1,13 +1,16 @@
 ip a
 hostnamectl set-hostname <name>
 
+nano .bashrc
+alias u='dnf update'
+
 nano /etc/hosts
 172.16.9.47 kubemaster1
 172.16.9.49 kubeworker1
 172.20.240.149 kubeworker2
 172.20.240.171 kubeworker3
 172.20.240.136 kubeworker4
-172.20.234.170 kubeworker5
+172.20.234.188 kubeworker5
 
 swapoff -a
 nano /etc/fstab
@@ -37,9 +40,6 @@ sysctl --system
 
 modprobe br_netfilter
 echo "modprobe br_netfilter" >> .bashrc
-
-nano .bashrc
-alias u='dnf update'
 
 systemctl disable --now firewalld
 
