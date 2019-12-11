@@ -1,3 +1,6 @@
+ip a
+hostnamectl set-hostname <name>
+
 nano /etc/hosts
 172.16.9.47 kubemaster1
 172.16.9.49 kubeworker1
