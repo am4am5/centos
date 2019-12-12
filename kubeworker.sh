@@ -10,7 +10,7 @@ nano /etc/hosts
 172.20.240.149 kubeworker2
 172.20.240.171 kubeworker3
 172.20.240.136 kubeworker4
-172.20.234.188 kubeworker5
+172.20.236.178 kubeworker5
 
 swapoff -a
 nano /etc/fstab
