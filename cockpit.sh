@@ -1,3 +1,3 @@
-dnf install cockpit cockpit-storaged
+dnf install -y cockpit cockpit-storaged && systemctl enable --now cockpit.socket
 
-systemctl enable --now cockpit
+
