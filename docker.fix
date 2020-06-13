@@ -1,0 +1,2 @@
+nano /etc/yum.repos.d/docker-ce.repo
+module_hotfixes=1
