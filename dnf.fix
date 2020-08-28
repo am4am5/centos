@@ -1,0 +1,3 @@
+#PERL modules error
+dnf config-manager --set-disabled Stream-AppStream Stream-BaseOS Stream-extras
+
