@@ -1,0 +1,1 @@
+0 23 * * 1-5 root rsync -rvPh --size-only /mnt/backup01/gtbprod-gtb-db-backup-pvc-b97f53bc-fca3-49a9-845d-56c0574fe088 /mnt/backup03 >> /mnt/backup01/replication.log 2>&1
