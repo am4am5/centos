@@ -1,0 +1,1 @@
+sed 's/selector(:is():where())/selector(:is(*):where(*))/' -i /usr/share/cockpit/static/login.js 
