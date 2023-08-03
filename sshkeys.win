@@ -1,1 +1,2 @@
-type C:\Users\Администратор\.ssh\id_rsa.pub | ssh root@10.10.20.165 "cat >> .ssh/authorized_keys"
+ssh-keygen
+type C:\Users\m_alexandrov\.ssh\id_rsa.pub | ssh root@work "cat >> .ssh/authorized_keys"
